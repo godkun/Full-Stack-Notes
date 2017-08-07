@@ -1,0 +1,4 @@
+第一次：FIN（client发给server）
+第二次：ACK（server发给client）
+第三次：FIN（server发给client ）
+第四次：ACK（client发给server）
