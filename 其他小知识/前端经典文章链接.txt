@@ -1,0 +1,2 @@
+1：HTTP协议中TCP的三次握手，四次挥手总结
+http://www.cnblogs.com/zxh930508/p/5432700.html
