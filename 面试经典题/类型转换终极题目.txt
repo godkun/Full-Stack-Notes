@@ -1,0 +1,11 @@
+类型转换，三元运算符先“分清是非”，再决定今后该走哪条路，
+“==”运算符比较“喜欢”Number类型。
+下面是题目的类型转换结果：
+Boolean([]); //true
+Number([]); //0
+Number({}); // NaN
+Number(false); //0
+因此：
+console.log(([])?true:fasle);// => console.log((true)?true:false);
+console.log([]==false?true:false); // => console.log(0==0?true:false);
+console.log(({}==false)?true:false); // => console.log((NaN==0)?true:false);

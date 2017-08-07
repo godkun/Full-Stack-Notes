@@ -1,0 +1,8 @@
+比如，var i=0;
+typeof(i)//number
+i instanceof number//true
+i instanceof object//false
+【 】 instanceof object//true 数组也是对象
+
+typeof 检测基本数据类型 结果是加引号的
+instanceof 是检测一个对象是否属于一个类的实例
