@@ -1,0 +1,9 @@
+localstorage  --- key-value存储
+websql        --- sqlite
+indexdb       --- NoSQL
+
+
+选择原则
+1：如果有indexdb就用indexdb
+2；如果有webbsql,就用websql
+3：什么都没有的时候，使用localstorage存，进于万能

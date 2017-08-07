@@ -1,0 +1,3 @@
+a、使用CSS的display:none，不会占有原来的位置
+b、使用CSS的visibility:hidden，会占有原来的位置
+c、使用HTML5中的新增属性hidden="hidden"，不会占有原来的位置

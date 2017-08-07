@@ -1,0 +1,4 @@
+- float的值不为none。
+- overflow的值不为visible。
+- display的值为table-cell, table-caption, inline-block 中的任何一个。
+- position的值不为relative 和static。
