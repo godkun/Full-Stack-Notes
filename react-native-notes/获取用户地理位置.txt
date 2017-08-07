@@ -1,0 +1,11 @@
+调用react native 内置定位功能
+
+navigator.geolocation.getCurrentPosition(
+(position)=>{console.log(position)},
+(error)=>{alert(error.message)},
+{}
+)
+
+包含三个参数：
+成功回调函数，失败回调函数，一系列可选参数
+

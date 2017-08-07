@@ -1,0 +1,7 @@
+如果依赖出现问题
+
+主要解决方法；
+清理所有已安装的npm包，然后重新安装
+
+rm -rf node_modules
+npm install

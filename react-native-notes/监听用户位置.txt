@@ -1,0 +1,10 @@
+this.watchId = navigator.geolocation.watchPosition((position) => {
+
+this.setStae({position:position})
+});
+
+在组件卸载时清除监听器
+
+componentwillUnmount : funtion(){
+navigator.geolocation.cleraWatch(this.watchId);
+}
