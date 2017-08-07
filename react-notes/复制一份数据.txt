@@ -1,0 +1,9 @@
+state是不能直接修改的，
+
+要用 var data = Array.from(this.state.data)
+
+然后对data进行相关操作
+
+最后用this.setState({
+	data : data
+})

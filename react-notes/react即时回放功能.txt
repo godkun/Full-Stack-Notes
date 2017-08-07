@@ -1,0 +1,12 @@
+将原来的的state保存下来，然后在进行this.setState()操作
+
+将state保存下来后，要进行回放state功能，
+这里用到事件监听器,捕捉键盘行为，并调用回放函数
+
+componentDidMount : function(){
+document.onkeydown = function(e){
+if(e.keyCode && e.altKey && e.shiftKey === 82){
+	this.xxx();
+}
+}
+}

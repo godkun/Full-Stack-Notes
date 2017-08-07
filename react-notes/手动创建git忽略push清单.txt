@@ -1,0 +1,9 @@
+1.文件夹内右键git bash，输 touch .gitignore，注意中间有空格 
+2.编辑器打开生成的 .gitignore 文件，加入
+
+.gitignore
+node_modules
+
+
+3.保存 
+4.以后再push到仓库的就会过滤这俩了，想加啥自己加

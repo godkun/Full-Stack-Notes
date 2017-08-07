@@ -1,0 +1,5 @@
+onChange会在用户输入时触发，相比于在元素失去焦点才触发的
+onchange原生事件，前者更具实用性，这意味着我们不需要为了
+监听用户输入而订阅所有的鼠标事件和键盘事件
+
+可以监听input textarea select button

@@ -1,0 +1,8 @@
+使用钩子函数：shouldComponentUpdate(nextProps, nextState)
+
+比较前后状态和属性，如果没有变化，则返回false，以节省部分处理能力。
+提高性能
+
+shouldComponentUpdate(nextProps, nextState)｛
+	return nextProps.xxx != this.props.xxx
+｝

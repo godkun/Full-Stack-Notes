@@ -1,0 +1,12 @@
+class和for要替换成className和htmlFor
+
+style的属性值是一个对象
+
+stye = {{}}
+
+里层是对象
+外层是用于包裹JSX的动态值
+
+JSX中所有的标签都要闭合
+
+用驼峰法命名属性
