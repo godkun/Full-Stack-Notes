@@ -1,0 +1,6 @@
+encodeURI主要用于直接赋值给地址栏时候： 
+location.href=encodeURI("http://huangjacky.com/");
+
+
+而encodeURIComponent主要用于url的query参数:
+location.href="http://huangjacky.com/test.php?a="+encodeURIComponent("我就是我");

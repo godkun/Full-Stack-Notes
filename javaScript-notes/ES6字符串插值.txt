@@ -1,0 +1,5 @@
+使用模板
+var str = 'abcd'
+var url = 'http://somesite.com/request&key=${str}'
+
+而ES5	需要用到字符串拼接

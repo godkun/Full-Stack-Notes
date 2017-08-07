@@ -1,0 +1,3 @@
+javascript中的每个对象都有一个内置的属性prototype，
+Javascript中对象的prototype属性的解释是：返回对象类型原型的引用。
+意思是是prototype属性保存着对另一个JavaScript对象的引用，这个对象作为当前对象的父对象。

@@ -1,0 +1,2 @@
+ display：none指的是元素完全不陈列出来，不占据空间，涉及到了DOM结构，故产生reflow与repaint
+visibility：hidden指的是元素不可见但存在，保留空间，不影响结构，故只产生repaint

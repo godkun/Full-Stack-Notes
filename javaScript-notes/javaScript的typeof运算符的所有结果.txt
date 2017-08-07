@@ -1,0 +1,8 @@
+typeof Symbol()    //"symbol"
+typeof Number()    //"number"
+typeof String()    //"string"
+typeof Function()    //"function"
+typeof Object()    //"object"
+typeof Boolean()    //"boolean"
+typeof null    //"object"
+typeof undefined    //"undefined"
