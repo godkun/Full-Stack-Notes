@@ -1,0 +1,35 @@
+这是我在网上看到的一篇博客，挺不错的。算是进步了一点。
+
+
+看后台提供的参数格式：
+访问路径:/sf/service/user/find/list
+请求方式:GET
+请求参数:requestParams //参数需要URL编码encodeURIComponent(JSON.stringify(obj)) 
+
+即键的名字“fieldName”是一个变量，根据不同的传值作修改。
+
+
+var fieldName=_fieldName;                //定义为变量  
+  var obj= {  
+     condition:{  
+   companyId  : _companyId ,             // int, default is null  
+    firstName : _firstName,              // string, default is null  
+    lastName  : _lastName,               //  string, default is null  
+      enabled : _enabled                 // true or false, default is null  
+           },  
+          order:{  
+                                         // fieldName 是一个动态的属性, 它可以是id/firstName/lastName/login/companyName/email  
+                                         // value  只允许两个值 'asc' 或  'desc'. 默认是'asc'  
+                  },  
+      pageNum : _pageNum                    //页数  
+   };  
+   obj.order[fieldName]=_value//然后添加进去  
+
+思路：
+
+先在对象中删除这个，然后用[]符增加一个。
+写法总结：
+var fieldName = "email";
+var order = {};
+order[fieldName] = "asc";
+
