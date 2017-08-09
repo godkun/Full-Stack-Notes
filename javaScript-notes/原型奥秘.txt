@@ -1,0 +1,11 @@
+1：每个JS对象(null除外)都和另一个对象相关联，另一个对象就是我们熟知的原型，每个对象都从原型继承属性。
+
+2：没有原型的对象很少，Object.prototype就是其中之一，不继承任何属性
+
+3：所有通过对象直接量创建的对象都具有一个原型对象，那就是Object.prototype，可以通过对Object.prototype设置方法来对所有对象增加方法。
+
+4：new Array()创建的对象，原型就是Array.prototype
+
+5：将对象作为参数传入Object.getPrototypeOf()中，可以查询它的原型。
+
+6：检测一个对象是否是另一个对象的原型：用 a.isPrototypeOf(b)  检测a是否是b的原型
