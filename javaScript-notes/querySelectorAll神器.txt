@@ -1,0 +1,25 @@
+写个例子就可以看出来了:
+
+document.getElementById("address").getElementByTagName("p")
+
+
+如果用
+
+document.querySelectorAll('#shipping input[type = 'radio']')
+
+
+document.querySelectorAll('#shipping input[type = 'radio'][name = 'method']')
+
+
+
+querySelectorAll('')
+
+接收CSS选择器的字符串参数
+
+返回一个匹配到的所有元素的NodeList对象
+
+querySelector()
+
+只返回第一个匹配的元素
+
+

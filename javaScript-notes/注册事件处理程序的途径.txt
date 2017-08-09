@@ -1,0 +1,5 @@
+1：设置JS对象属性为事件处理程序
+2：设置HTML标签属性为事件处理程序
+3：使用addEventListener()方法
+4：IE下的attachEvent()方法
+

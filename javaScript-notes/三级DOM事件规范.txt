@@ -1,0 +1,3 @@
+用不冒泡的focusin和focusout事件来取代冒泡的focus和blur事件
+
+用不冒泡的mouseenter和mouseleave事件来取代冒泡的mouseover和mouseout事件
