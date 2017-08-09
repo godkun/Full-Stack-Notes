@@ -1,0 +1,24 @@
+location = ""
+
+可以是绝对URL，也可以是相对URL
+
+location = "#top"
+如果没有ID，则跳到文档开始处。
+
+
+location = "page2.html"
+载入下一个页面
+
+
+location = "www.baidu.com"
+跳转到百度页面
+
+location对象的属性：
+
+protocol
+host
+hostname
+port
+pathname
+search
+

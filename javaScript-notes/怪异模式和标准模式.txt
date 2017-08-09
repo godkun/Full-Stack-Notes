@@ -1,0 +1,7 @@
+只要定义了HTML5 Doctype的页面，在所有浏览器中都会按照标准模式渲染。
+怎么检测：
+
+用document.compatMode
+
+如果值为“CSS1Compat”则说明浏览器工作在标准模式
+

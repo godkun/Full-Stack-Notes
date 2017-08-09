@@ -1,0 +1,16 @@
+toString() ：返回一个反映这个对象的字符串
+
+但是默认的这个方法有可能会返回有趣的值
+
+({x:1,y:2}).toString()   返回 "[object Object]"
+
+valueOf()  ：返回它的数字
+
+new Date().valueOf()  返回1970年以来的毫秒数
+
+
+
+
+
+
+

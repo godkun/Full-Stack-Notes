@@ -1,0 +1,6 @@
+switch(n){
+	case 1:
+	default:
+		
+}
+这里我只想强调最后一定要加个default语句，开发规则

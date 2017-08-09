@@ -1,0 +1,2 @@
+非常好用，尤其和new Date().toLocaleTimeString()一起使用
+返回符合当地字符串规则的显示内容

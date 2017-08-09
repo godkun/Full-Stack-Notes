@@ -1,0 +1,2 @@
+严格模式下：调用的函数中的this值是undefined
+非严格模式下：调用的函数中的this值是window（全局对象）

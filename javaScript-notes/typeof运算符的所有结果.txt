@@ -6,3 +6,5 @@ typeof Object()    //"object"
 typeof Boolean()    //"boolean"
 typeof null    //"object"
 typeof undefined    //"undefined"
+
+·µ»ØµÄÊÇ×Ö·û´®

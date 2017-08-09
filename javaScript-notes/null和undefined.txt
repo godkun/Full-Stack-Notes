@@ -1,0 +1,8 @@
+null : 表示一个特殊的对象值，含义是非对象
+undefined : 表示这个属性或者元素不存在
+
+undefined == true 结果为true
+
+
+除了unndefined 和 null之外的任何值都具有toString()方法
+
