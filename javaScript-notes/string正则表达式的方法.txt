@@ -1,0 +1,15 @@
+search()  方法返回第一个与之匹配的子串的起始位置，如果找不到，则返回-1
+
+"javascript".search(/script/i);
+
+search()方法不支持全局检索，因为会忽略正则表达式参数中的修饰符g
+
+
+
+replace() 方法用于检索与替换操作，第一个参数是正则表达式，第二个参数是要进行替换的字符串。
+
+text.replace(/javascript/gi, "JavaScript")
+上面是将所有不区分大小写的javascript替换成大小写正确的JavaScript
+
+
+match() 方法只有一个参数，是正则表达式，返回的是一个有匹配结果组成的数组

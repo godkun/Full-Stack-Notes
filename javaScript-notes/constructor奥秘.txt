@@ -1,0 +1,15 @@
+每个JS函数都自动拥有一个prototype属性，这个属性的值是一个对象，
+这个对象包含唯一一个不可被枚举属性constructor，constructor属性的
+值是一个函数对象：
+
+var F = function(){}              // 函数对象
+
+var p = F.prototype;
+
+var c = p.constructor；
+
+c === F                           // 返回true
+
+
+对象通常继承的constructor均指代他们的构造函数。而他们的构造函数
+就是他们的原型对象的一个不能枚举的constructor属性

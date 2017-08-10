@@ -1,0 +1,4 @@
+instanceof运算符不会检查r是否是由Range()构造函数初始化而来，
+而会检查r是否继承自Range.prototype。
+
+在JS中，构造函数就是类名
