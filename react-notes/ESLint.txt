@@ -3,3 +3,14 @@ JS和JSX检查工具
 
 还可以帮助你检查代码一致性，比如 缩进与空格的使用，以及
 检查拼写错误以及未使用的变量。
+
+npm i -g  eslint
+
+npm i -g eslint-config-airbnb
+
+然后在项目根目录下新建.eslintrc文件
+配置
+{"estends" : "eslint-config-airbnb"}
+
+
+然后执行 eslint index.js 进行代码检查

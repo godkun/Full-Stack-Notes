@@ -1,0 +1,4 @@
+action只是普通的JavaScript Object，所以action必须有一个type属性值，它就像这个action的身份证一样，来表示这个action完成的功能。
+type应该被定义成常量，因为它是唯一的，不能被修改的。
+
+
