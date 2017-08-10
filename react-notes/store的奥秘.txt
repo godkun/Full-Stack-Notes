@@ -1,0 +1,7 @@
+1：保存整个程序的state
+
+2：通过getState()方法访问state的值
+
+3：通过dispatch()方法执行一个action
+
+4：通过subscribe(listener)注册回调，监听state的变化

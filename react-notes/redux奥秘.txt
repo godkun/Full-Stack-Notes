@@ -1,0 +1,32 @@
+1：三大定律：
+		单一数据源
+		state是只读的
+		使用纯函数执行修改
+
+
+2：目的：让state的变化可以预测的工具
+
+3：严格的单向数据流动
+
+过程：
+
+调用store.dispath(action)来执行一个action
+
+store调用传入的reducer函数，store的来源就是reducer
+
+reducer处理action并且返回新的state
+
+store保存reducer返回的完整state
+
+更新状态数据的操作会立刻被同步给监听Store状态改变的函数，从而引发作为视图的React组件更新过程。
+
+
+4：redux着眼对状态整体的维护
+
+5：react的单向数据流是同步操作，驱动Redux流程的是action对象。
+
+6：redux是根据函数式编程的思想来设计的，函数式编程的一个重要思想就是让每个函数的功能尽量小。
+
+
+
+

@@ -1,0 +1,9 @@
+只获取参数返回结果，不对参数本身进行改变，
+比如：
+你可以 return state + 1； 因为state没有改变
+
+但是：
+你不能这样写：  state = state +1 ;
+		return state;
+
+因为这样就改变了state的值了，参数本身就变化了。
