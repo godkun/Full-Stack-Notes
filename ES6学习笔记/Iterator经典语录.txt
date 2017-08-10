@@ -1,0 +1,16 @@
+1：遍历器，一种接口
+
+2：只要部署Iterator接口，就可以完成遍历机制
+
+3：Iterator接口主要供for...of 消费
+
+4：默认Iterator接口的有：数组、类似数组的对象、Set和Map结构
+
+5：一个数据结构只要部署了Symbol.iterator属性，就被视为具有Iterator接口
+
+怎么部署，很简单：将数组的Symbol.iterator属性直接赋值给其他对象的Symbol.iterator属性
+
+如：
+
+JQuery.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
+

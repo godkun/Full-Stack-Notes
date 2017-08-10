@@ -1,0 +1,10 @@
+1: 一个模块就是一个文件，文件内部的所以变量，外部无法获取。如果希望外部能够读取模块内部的某个变量，就必须使用export关键字输出改变量。
+
+2：ES6模块是编译时加载，只加载需要的方法。
+
+3：使用module命名，达到整体输入模块的作用
+如：
+
+module.circle from './circle';
+console.log(circle.area(4));
+console.log(circle.circumference(4));

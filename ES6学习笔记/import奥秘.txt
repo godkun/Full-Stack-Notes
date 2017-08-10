@@ -1,0 +1,11 @@
+1：import接受一个对象，{}表示，里面指定从其他模块导入的变量名。
+
+2：大括号中的变量名必须与被导入的模块对外接口的名称相同
+
+3：可以用as进行重命名
+
+4：对于导入默认模块时，可以用任意名字指向export-default.js输出的方法，而且，import后面的名字不使用大括号
+
+5：如果想在一条import语句中同时输入默认方法和其他变量，可以写成
+
+import customName,{otherMethod} from './export-default';

@@ -1,0 +1,10 @@
+babel已经可以支持转码
+
+class MyClass(){
+	static a= 12;
+	
+	constructor(){
+	
+		console.log(MyClass.a);
+	｝
+｝

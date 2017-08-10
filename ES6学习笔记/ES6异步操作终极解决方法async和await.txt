@@ -1,0 +1,41 @@
+async函数就是generator函数的语法糖
+
+async函数就是generator函数的星号(*)替换成 async 将 yield 替换成 await
+
+async: 表示函数里有异步操作
+await: 表示紧跟在后面的表达式需要等待结果
+
+
+
+优势：
+
+1：内置执行器，generator函数的执行必须靠执行器
+
+2：更好的语义
+
+3：返回值是Promise , generator返回的是Iterator对象
+
+4： babel转码器已经支持
+
+5：自动执行，得到最终结果。不想generator函数，需要调用next方法，才能真正执行。
+
+
+读取两个文件：
+
+v
+var asyncReadFile = saync function(){
+	var f1 = await readFile('');
+	var f2 = await readFile('');
+	console.log(f1.toString());
+	console.log(f1.toString());
+}
+	
+
+
+
+
+
+
+
+
+

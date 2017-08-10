@@ -1,0 +1,16 @@
+function f(x = 5){
+	let x = 1;   // error
+	constx = 1;  // error
+}
+
+函数体内不能再次声明
+
+结合解构赋值配合使用
+function f({x, y = 5}){
+	console.log(x ,y);
+}
+
+很明显是结构赋值，这里要强调的是参数对象里的 x 默认是 undefined，没有初始化。
+
+
+

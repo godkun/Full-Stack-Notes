@@ -1,0 +1,7 @@
+被移植到了Number对象上了
+
+ES5：parseInt()
+
+ES6: Number.parseInt()
+
+目的：减少全局性方法，使语言模块化

@@ -1,0 +1,8 @@
+var a = 30;
+
+var msg = 'this is ${a} yuan';
+
+会输出this is 30 yuan
+
+
+用途：过滤HTML字符串，防止用户输入恶意内容
