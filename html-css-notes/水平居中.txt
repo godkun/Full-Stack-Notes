@@ -1,0 +1,13 @@
+子元素为行内元素
+父元素设置text-align:center
+子元素设置为行内元素，如display:inline-block
+
+子元素为块状元素
+margin: 0 auto
+
+CSS3+position定位
+父元素position: relative
+子元素position: absolute再加left: 50%;transform: translateX(-50%)
+(低版本IE不兼容CSSS3新属性）
+
+transform: translateX(-50%);  把元素沿着横向（x轴）移动自身宽度的50%，一般是从左侧为开始点也就是0点。而数值是-50%，所以是从左侧0点向左移动自身宽度的50%。
