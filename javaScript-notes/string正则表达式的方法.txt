@@ -12,4 +12,6 @@ text.replace(/javascript/gi, "JavaScript")
 上面是将所有不区分大小写的javascript替换成大小写正确的JavaScript
 
 
-match() 方法只有一个参数，是正则表达式，返回的是一个有匹配结果组成的数组
+
+
+match() 方法只有一个参数，是正则表达式，返回的是一个有匹配结果组成的数组，而且其数组中的每个成员都是字符串
