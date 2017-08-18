@@ -1,0 +1,18 @@
+1：封装的目的：将信息隐藏，信息包括实现细节，设计细节，对象类型
+
+2：其他语言用private,public等关键字来提供不同的访问权限
+
+3；JS中一般通过函数来创建作用域：
+如：
+var myObject = (function(){
+	var _name = "666";            // 私有变量
+	return {
+		getName:function(){    // 公开方法
+			return _name;
+			}
+		}
+})();
+console.log(myObject.getName());  // 输出: "666"
+console.log(myObject._name);      // 输出：undefined
+
+4：封装是对象之间的耦合降低
