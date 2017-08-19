@@ -1,0 +1,16 @@
+1：定义：提供一种方法来顺序访问一个聚合对象中的各个元素，而又不需要暴露该对象的内部表示，不需要关系对象的内部构造。
+
+2：很多语言都内置迭代器实现
+
+3：
+
+4：JS自己实现一个each函数
+var each = function( ary, callback ){
+		for ( var i = 0, l = ary.length; i < l; i++ ){
+			callback.call( ary[i], i, ary[ i ] ); // 把下标和元素当作参数传给callback 函数
+		}
+	};
+
+	each( [ 1, 2, 3 ], function( i, n ){
+		alert ( [ i, n ] );
+	});
